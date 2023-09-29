@@ -1,0 +1,137 @@
+body {
+    font-size: 24px;
+    font-family: sans-serif;
+    height: 100vh;
+    padding: 0;
+}
+
+iframe {
+    border-radius: 15px;
+}
+
+.header {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: none;
+    height: 30%;
+    border-bottom: black 3px solid;
+    width: 100%;
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.header-logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 5%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+
+.main-hobby {
+    border: solid black 4px;
+    border-radius: 0;
+    width: 900px;
+    height: 900px;
+    margin: auto;
+    margin-top: 10%;
+    position: relative;
+    transition: 0.8s;
+    bottom: 0;
+    right: 0;
+    background-image: none;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-hobby:hover {
+    bottom: 15px;
+    right: 15px;
+    background: #FC5C7D;
+    background: linear-gradient(to right, #6A82FB, #FC5C7D);
+    box-shadow: 12px 12px 2px 1px rgba(57, 1, 31, 0.075);
+    border-radius: 24px;
+}
+
+.main-hobby-header {
+    border-bottom: black 3px solid;
+    padding: 3%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.main-hobby-header-light {
+    border-radius: 50%;
+    margin-right: 2%;
+    height: 0;
+    width: 0;
+    transition: 0.8s;
+}
+
+.main-hobby:hover .main-hobby-header-light {
+    height: 20px;
+    width: 20px;
+}
+
+
+.one {
+    background-color: #F696F8;
+}
+
+.two {
+    background-color: #FAFBA8;
+}
+
+.three {
+    background-color: #BAFEFE;
+}
+
+.main-hobby-contents {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.footer {
+    background: #FC466B;
+    background: repeating-linear-gradient(45deg, #3F5EFB, #FC466B 50px);
+    border-top: black 5px solid;
+    margin-top: 5%;
+    display: flex;
+    align-content: center;
+    color: white;
+}
+
+.footer-contacts {
+    list-style: none;
+}
+
+.footer-contacts-item {
+    margin-bottom: 5%;
+}
+
+.footer-contacts-item:last-child {
+    margin-bottom: 0;
+}
